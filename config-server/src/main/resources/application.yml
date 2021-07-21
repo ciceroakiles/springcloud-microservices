@@ -6,4 +6,4 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/ciceroakiles/springcloud-microservices/config
+          uri: https://github.com/ciceroakiles/springcloud-microservices/tree/master/config-server/src/main/java/com/sample/configserver/config
