@@ -1,9 +1,11 @@
-server:
-  port: 8888
-
 spring:
+  application:
+    name: config-server
   cloud:
     config:
       server:
         git:
-          uri: https://github.com/ciceroakiles/springcloud-microservices/tree/master/config-server/src/main/java/com/sample/configserver/config
+          uri: https://github.com/ciceroakiles/springcloud-microservices.git
+
+server:
+  port: 8888

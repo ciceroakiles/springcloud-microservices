@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: product-catalog
+
+  cloud:
+    config:
+      uri: http://localhost:8888
+
+elasticsearch:
+  host: localhost
+  http.port: 9200
+  transport.tcp.port: 9300
+  connectTimeout: 6000
+  socketTimeout: 6000
+
+server:
+  port: 8081
