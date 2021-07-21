@@ -5,6 +5,9 @@ elasticsearch:
   connectTimeout: 6000
   socketTimeout: 6000
 
+server:
+  port: 8081
+
 eureka:
   instance:
     hostname: localhost
@@ -16,6 +19,3 @@ eureka:
       defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
   server:
     wait-time-in-ms-when-sync-empty: 3000
-
-server:
-  port: 8081

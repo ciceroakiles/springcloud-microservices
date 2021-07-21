@@ -27,6 +27,8 @@ dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-web'
 	// Dependência necessária para encontrar o config-server
 	implementation 'org.springframework.cloud:spring-cloud-starter-config'
+	// Dependência necessária para se registrar no EurekaServer
+	implementation 'org.springframework.cloud:spring-cloud-starter-netflix-eureka-client'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 }
 
