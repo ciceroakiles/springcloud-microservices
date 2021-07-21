@@ -1,0 +1,7 @@
+server:
+  port: 8081
+  container:
+    instance:
+      hostname: localhost
+      port1: 9200
+      port2: 9300
