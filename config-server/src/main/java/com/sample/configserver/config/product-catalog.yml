@@ -1,4 +1,2 @@
-test1: http://localhost:9200
-
 server:
   port: 8081
