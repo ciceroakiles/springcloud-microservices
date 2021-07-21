@@ -5,6 +5,9 @@ elasticsearch:
   connectTimeout: 6000
   socketTimeout: 6000
 
+server:
+  port: 8081
+
 eureka:
   instance:
     hostname: localhost
