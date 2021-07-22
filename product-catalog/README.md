@@ -8,10 +8,7 @@ docker pull docker.elastic.co/elasticsearch/elasticsearch:(version)
 docker run -d --name (name) -p 9200:9200 -p 9300:9300 -e "discovery.type=single-node" docker.elastic.co/elasticsearch/elasticsearch:(version)
 ```
 
-* Verificação do container:
-```
-docker logs (name) -f
-```
+Se o container não estiver rodando, a conexão na porta dele será recusada, e o serviço não vai subir.
 
 ### Exemplos de requisições HTTP
 
