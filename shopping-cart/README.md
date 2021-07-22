@@ -14,5 +14,4 @@ curl http://localhost:8082/api/v1/carrinho/1
 ```
 ```
 curl -X DELETE http://localhost:8082/api/v1/carrinho/1
-
 ```
